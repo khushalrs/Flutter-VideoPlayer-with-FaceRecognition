@@ -1,0 +1,21 @@
+{
+    "appName": "awssignin",
+    "roleName": "pinpointLambdaRole2d3e03d0",
+    "cloudformationPolicyName": "cloudformationPolicy2d3e03d0",
+    "cloudWatchPolicyName": "cloudWatchPolicy2d3e03d0",
+    "pinpointPolicyName": "pinpointPolicy2d3e03d0",
+    "authPolicyName": "pinpoint_amplify_2d3e03d0",
+    "unauthPolicyName": "pinpoint_amplify_2d3e03d0",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

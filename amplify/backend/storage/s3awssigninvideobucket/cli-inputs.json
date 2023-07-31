@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3awssigninvideobucket",
+  "bucketName": "awssignin-video-bucket",
+  "policyUUID": "abadff51",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "READ",
+    "CREATE_AND_UPDATE",
+    "DELETE"
+  ]
+}
