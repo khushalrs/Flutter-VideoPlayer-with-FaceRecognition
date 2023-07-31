@@ -1,6 +1,6 @@
-# aws_signin
+# Flutter=VideoPlayer-with-FaceRecognition
 
-A new Flutter project.
+A video player application that has a face recogniton feature to unlock the app and streams videos hosted on AWS.
 
 ## Getting Started
 
